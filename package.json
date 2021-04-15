@@ -1,0 +1,15 @@
+{
+	"name": "pluto-tv-addon",
+	"version": "0.0.2",
+	"description": "Pluto TV é um serviço de Streaming gratuito americano de propriedade da Pluto Inc., uma subsidiária da ViacomCBS.",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"moment": "^2.29.1",
+		"stremio-addon-sdk": "1.1.x",
+		"url": "^0.11.0",
+		"uuid": "^8.3.2"
+	}
+}
